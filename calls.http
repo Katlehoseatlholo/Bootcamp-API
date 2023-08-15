@@ -1,0 +1,15 @@
+POST http://localhost:3019//api/word_game?sentence=<the sentence you want to analyze>
+content-type: application/json
+{
+   "longestWord" : 8,
+ "shortestWord" : "the",
+ "sum" : 23
+}
+
+### 
+
+POST http://localhost:3019/api/phonebill/total
+content-type: application/json
+{
+    "bill": "call,sms,call"
+}
